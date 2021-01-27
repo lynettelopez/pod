@@ -1,0 +1,37 @@
+/*
+  Colors
+*/
+$accent: #54e6af;
+$accent-light: #b3ffe2;
+$primary: #2c344b;
+$secondary: #5a668a;
+$tertiary: #c2cbe5;
+$background: #121725;
+$white: #ffffff;
+$error: #fb3e3e;
+
+/*
+  Typography
+*/
+$chivo: "Chivo", sans-serif;
+$light: 300;
+$bold: 700;
+
+/*
+  Mixins
+*/
+@mixin responsive($breakpoint) {
+  @if $breakpoint == tablet {
+    // Screen has reached a width of 700px
+    @media only screen and (min-width: 43.75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktop {
+    // Screen has a width of at least 1120px
+    @media only screen and (min-width: 70em) {
+      @content;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {
-  "name": "svelte-app",
+  "name": "pod",
   "version": "1.0.0",
+  "author": "Lynette Lopez",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

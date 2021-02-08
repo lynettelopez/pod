@@ -4,7 +4,7 @@
 
 <form>
   <label for="email">Email address</label>
-  <input type="email" placeholder="Email address" required />
+  <input id="email" type="email" placeholder="Email address" required />
   {#if screenWidth >= 1120}
     <span>Oops! Please check your email</span>
   {/if}

@@ -17,4 +17,4 @@ As part of a series of challenges on [Frontend Mentor](https://www.frontendmento
 
 ![Pod Request Access Landing Page Preview](./public/static/images/preview.jpg)
 
-Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Code by Lynette Lopez.
+Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Coded by Lynette Lopez.
